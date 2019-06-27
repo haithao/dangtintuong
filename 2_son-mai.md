@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: Son mai
-description: Một số dự án đã tham gia triển khai.
+description: Bo suu tap tranh son mai.
 image: assets/images/banner-01.jpg
 nav-menu: true
 ---
