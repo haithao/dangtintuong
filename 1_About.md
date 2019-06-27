@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tư vấn
-description: Góc chuyên gia tư vấn.
+title: ABOUT
+description: Góc goi thieu.
 image: assets/images/banner-02.jpg
 nav-menu: true
 ---
