@@ -6,10 +6,6 @@ image: assets/images/banner-long.jpg
 nav-menu: true
 ---
 
-<!-- Main -->
-<div id="main">
-
-<!-- One -->
 <style>
 .container-fluid {
     padding-right: 1px;
@@ -19,6 +15,10 @@ nav-menu: true
 }
 </style>
 
+<!-- Main -->
+<div id="main">
+
+<!-- One -->
 <section id="photos">
 <div class="container-fluid">
 <div class="row-no-gutters">
