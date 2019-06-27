@@ -34,6 +34,7 @@ nav-menu: true
     {% endfor %}
 </div>
 </div>
+</section>
 </div>
 
 

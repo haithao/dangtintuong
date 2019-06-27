@@ -24,16 +24,18 @@ nav-menu: true
 <div class="row-no-gutters">
 	{% assign image_files = site.static_files | where: "image", true %}
 	{% for image in image_files %}
+	{% if image.path contains 'fulls/Son-mai' %}
 	<div class="img_wrap">
-		{% if image.path contains 'fulls/Son-mai' %}
 		<a href="{{site.baseurl}}/assets/images/fulls/{{ image.name }}" class="portfolio-box">
 		  <img src="{{site.baseurl}}/assets/images/thumbs/{{ image.name }}" class="image" >	
 		</a>
-		{% endif %}
+
 	</div>
-   {% endfor %}
+	{% endif %}
+    {% endfor %}
 </div>
 </div>
+</section>
 </div>
 
 
