@@ -24,7 +24,6 @@ nav-menu: true
 <div class="row-no-gutters">
 	{% assign image_files = site.static_files | where: "image", true %}
 	{% for image in image_files %}
-	{% image.path %}
 	{% if image.path contains 'fulls/Son-mai' %}
 	<div class="img_wrap">
 		<a href="{{site.baseurl}}/assets/images/fulls/{{ image.name }}" class="portfolio-box">
