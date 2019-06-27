@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Nội thất Smartview'
+landing-title: 'DANG TIN TUONG'
 description: null
 image: null
 author: null
