@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section class="no-padding" id="one">
+<div class="container-fluid">
+	<header class="major">
+		<h1>{{ page.project }}</h1>
+	</header>
+	{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/assets/images/00a-Banner.jpg" alt="" /></span>{% endif %}
+</div>
+</section>
+
+<section class="no-padding" id="two">
+	<div class="container-fluid">
+	<div class="row-no-gutters">
+	{% assign imgs = page.imagedetail | split: ',' %}
+	{% for img in imgs %}
+	   <div class="col-lg-6 col-sm-6 col-md-6"> 
+			<a href="#" class="portfolio-box">
+			<!-- <img src="{{site.baseurl}}/assets/images/tubep/{{img}}" class="img-responsive" alt=""> -->
+			<img src="{{site.baseurl}}/assets/images/tubep/{{img}}" class="image main" alt="">
+			</a>
+		</div>
+	{% endfor %}			
+	</div>
+	</div>
+</section>
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>

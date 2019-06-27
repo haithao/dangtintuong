@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %} 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section class="no-padding" id="head">
+<div class="container-fluid">
+	<!-- <div class="inner"> -->
+	<header class="major">
+		<h1>{{ page.title }}</h1>
+	</header>
+	{% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" alt="" /></span>{% endif %}
+		
+	<!-- </div> -->
+</div>
+</section>
+
+<section class="no-padding" id="project">
+
+{{content}}
+
+</section>
+
+</div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
