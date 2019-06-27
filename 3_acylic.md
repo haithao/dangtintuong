@@ -1,7 +1,7 @@
 ---
-title: Giới thiệu công trình thực tế
+title: ACRYLIC
 layout: landing
-description: Công trình đã hoàn thành.
+description: Bo suu tap tranh acrylic.
 image: assets/images/banner-long.jpg
 nav-menu: true
 ---
